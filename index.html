@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en" class="no-js" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nova — Beautiful Websites, Effortlessly</title>
+  <meta name="description" content="Nova is a polished, responsive website template with dark mode, smooth animations, and clean components." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nova — Beautiful Websites, Effortlessly" />
+  <meta property="og:description" content="A polished, responsive template with dark mode and slick UI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/0ea5e9/ffffff&text=Nova" />
+  <meta property="og:url" content="https://example.com/" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect width='256' height='256' rx='56' fill='%230ea5e9'/><path d='M67 166l61-116 61 116H67z' fill='white'/></svg>">
+  <script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand" aria-label="Nova home">
+        <svg width="28" height="28" viewBox="0 0 256 256" aria-hidden="true" class="brand-mark">
+          <rect width="256" height="256" rx="56" fill="currentColor" opacity=".15"/>
+          <path d="M67 166l61-116 61 116H67z" fill="currentColor"/>
+        </svg>
+        <span class="brand-name">Nova</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span class="sr-only">Toggle menu</span><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+        <ul id="menu" class="menu">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#showcase">Showcase</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="btn btn--sm btn--ghost">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="icon-sun" aria-hidden="true"></span>
+        <span class="icon-moon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container grid-2">
+        <div class="hero-copy">
+          <p class="eyebrow">New</p>
+          <h1>Build beautiful websites <span class="accent-underline">effortlessly</span>.</h1>
+          <p class="sub">A modern template with clean typography, dark mode, and delightful micro-interactions — ready for startups, portfolios, and products.</p>
+          <div class="cta">
+            <a href="#pricing" class="btn btn--primary">Get Started</a>
+            <a href="#showcase" class="btn btn--ghost">See it in action</a>
+          </div>
+          <ul class="hero-bullets">
+            <li>⚡️ Fast & responsive</li>
+            <li>🌓 Dark mode included</li>
+            <li>🔒 Accessible & semantic</li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <div class="card code-card" data-tilt>
+<pre><code class="language-html">&lt;section class="wow"&gt;
+  &lt;h2&gt;Hello, Nova!&lt;/h2&gt;
+  &lt;p&gt;Build something great.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+            <div class="floating-badges">
+              <span class="badge">Core Web Vitals ✓</span>
+              <span class="badge">A11y AA ✓</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <!-- Logos -->
+    <section class="section logos">
+      <div class="container marquee" aria-label="Trusted by">
+        <span>Trusted by makers at</span>
+        <ul>
+          <li>Pixelcraft</li><li>Skyline</li><li>Northwind</li><li>Acme</li><li>Orbit</li><li>Voyagr</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Everything you need to launch</h2>
+          <p class="muted">Hand-picked components with sensible defaults and tasteful motion.</p>
+        </header>
+
+        <div class="features-grid">
+          <article class="feature reveal">
+            <div class="feature-icon gradient"></div>
+            <h3>Accessible by default</h3>
+            <p>Semantic HTML, keyboard-friendly interactions, and WCAG-aware color contrast.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature-icon gradient"></div>
+            <h3>Dark mode</h3>
+            <p>One toggle, two moods. System preference respected, with smooth transitions.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature-icon gradient"></div>
+            <h3>Utility classes</h3>
+            <p>Spacing, typography, and layout helpers keep your CSS tidy and scalable.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature-icon gradient"></div>
+            <h3>Animations</h3>
+            <p>Intersection-observer powered reveals and micro-interactions that feel alive.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature-icon gradient"></div>
+            <h3>Performance</h3>
+            <p>Lightweight, no frameworks required. Just modern CSS + vanilla JS.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature-icon gradient"></div>
+            <h3>Components</h3>
+            <p>Cards, tabs, accordion, modal, slider — all you need to ship fast.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <section id="showcase" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>Showcase</h2>
+          <p class="muted">A tasteful gallery with a lightbox modal.</p>
+        </header>
+
+        <div class="gallery">
+          <!-- Using decorative placeholder SVGs -->
+          <button class="gallery-item" data-img="1" aria-label="Open image 1">
+            <svg viewBox="0 0 600 400" role="img" aria-label="Abstract gradient #1"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0ea5e9"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs><rect width="600" height="400" fill="url(#g1)"/></svg>
+          </button>
+          <button class="gallery-item" data-img="2" aria-label="Open image 2">
+            <svg viewBox="0 0 600 400" role="img" aria-label="Abstract gradient #2"><defs><linearGradient id="g2" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs><rect width="600" height="400" fill="url(#g2)"/></svg>
+          </button>
+          <button class="gallery-item" data-img="3" aria-label="Open image 3">
+            <svg viewBox="0 0 600 400" role="img" aria-label="Abstract gradient #3"><defs><linearGradient id="g3" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#34d399"/><stop offset="1" stop-color="#10b981"/></linearGradient></defs><rect width="600" height="400" fill="url(#g3)"/></svg>
+          </button>
+          <button class="gallery-item" data-img="4" aria-label="Open image 4">
+            <svg viewBox="0 0 600 400" role="img" aria-label="Abstract gradient #4"><defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f59e0b"/><stop offset="1" stop-color="#ef4444"/></linearGradient></defs><rect width="600" height="400" fill="url(#g4)"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Simple, transparent pricing</h2>
+          <p class="muted">Switch between monthly and yearly billing anytime.</p>
+          <div class="billing-switch">
+            <span>Monthly</span>
+            <label class="switch">
+              <input type="checkbox" id="billingToggle" aria-label="Toggle yearly billing" />
+              <span class="slider"></span>
+            </label>
+            <span>Yearly <span class="save">Save 20%</span></span>
+          </div>
+        </header>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <h3>Starter</h3>
+            <p class="muted">For personal sites</p>
+            <p class="price"><span class="currency">$</span><span class="amount" data-month="9" data-year="86">9</span><span class="period">/mo</span></p>
+            <ul class="list">
+              <li>1 project</li>
+              <li>Basic components</li>
+              <li>Email support</li>
+            </ul>
+            <a href="#" class="btn btn--primary">Choose Starter</a>
+          </article>
+
+          <article class="price-card price-card--pro reveal">
+            <div class="pill">Popular</div>
+            <h3>Pro</h3>
+            <p class="muted">For small teams</p>
+            <p class="price"><span class="currency">$</span><span class="amount" data-month="29" data-year="278">29</span><span class="period">/mo</span></p>
+            <ul class="list">
+              <li>Unlimited projects</li>
+              <li>Advanced components</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#" class="btn btn--primary">Choose Pro</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3>Enterprise</h3>
+            <p class="muted">For large orgs</p>
+            <p class="price enterprise">Let’s talk</p>
+            <ul class="list">
+              <li>Custom SSO</li>
+              <li>Dedicated manager</li>
+              <li>SLA & compliance</li>
+            </ul>
+            <button class="btn btn--ghost" data-open-modal="#contactModal">Contact Sales</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Slider -->
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>People are saying nice things 😌</h2>
+        </header>
+        <div class="slider" data-slider>
+          <button class="slider-btn prev" aria-label="Previous testimonial">‹</button>
+          <div class="slides">
+            <figure class="slide">
+              <blockquote>“Nova helped us ship our MVP in a week. The animations feel premium.”</blockquote>
+              <figcaption>— Jamie, Product Lead @ Orbit</figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>“Best starter I’ve used this year. Clean, accessible, and fast.”</blockquote>
+              <figcaption>— Priya, Frontend Engineer</figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>“The dark mode toggle? Chef’s kiss.”</blockquote>
+              <figcaption>— Alex, Indie Hacker</figcaption>
+            </figure>
+          </div>
+          <button class="slider-btn next" aria-label="Next testimonial">›</button>
+          <div class="dots" aria-label="Slide dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Frequently asked questions</h2>
+        </header>
+        <div class="accordion" data-accordion>
+          <div class="item">
+            <button class="trigger" aria-expanded="false">Can I use Nova commercially?</button>
+            <div class="panel"><p>Yes. Use it for client work, SaaS apps, landing pages—go wild.</p></div>
+          </div>
+          <div class="item">
+            <button class="trigger" aria-expanded="false">Does it support dark mode?</button>
+            <div class="panel"><p>Yep. Toggle on, and we persist your choice in localStorage.</p></div>
+          </div>
+          <div class="item">
+            <button class="trigger" aria-expanded="false">Is it framework-agnostic?</button>
+            <div class="panel"><p>100%. It’s vanilla HTML/CSS/JS. Drop into any stack.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>Let’s build something great</h2>
+          <p class="muted">We’ll get back within 1–2 business days.</p>
+        </header>
+
+        <form class="card contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" required minlength="2" placeholder="Ada Lovelace" />
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@domain.com" />
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="form-row">
+            <label for="msg">Message</label>
+            <textarea id="msg" name="message" rows="4" required minlength="10" placeholder="Tell us about your project…"></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn--primary">Send message</button>
+            <p class="form-note muted">We respect your privacy. No spam, ever.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#" class="brand brand--footer">
+          <svg width="24" height="24" viewBox="0 0 256 256" aria-hidden="true" class="brand-mark">
+            <rect width="256" height="256" rx="56" fill="currentColor" opacity=".15"/>
+            <path d="M67 166l61-116 61 116H67z" fill="currentColor"/>
+          </svg>
+          <span>Nova</span>
+        </a>
+        <p class="muted">© <span id="year"></span> Nova. All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <form class="newsletter" id="newsletterForm" novalidate>
+        <label for="newsEmail">Subscribe</label>
+        <div class="input-group">
+          <input id="newsEmail" type="email" placeholder="you@domain.com" required />
+          <button class="btn btn--primary">Join</button>
+        </div>
+        <small class="error" aria-live="polite"></small>
+      </form>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <dialog id="lightbox" class="modal">
+    <div class="modal-body">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <img src="" alt="Gallery image" id="lightboxImg" />
+    </div>
+  </dialog>
+
+  <!-- Contact Modal (Enterprise) -->
+  <dialog id="contactModal" class="modal">
+    <form class="modal-body" method="dialog">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <h3>Talk to sales</h3>
+      <p class="muted">Tell us about your needs, and we’ll tailor a plan.</p>
+      <label class="sr-only" for="c-email">Work email</label>
+      <input id="c-email" type="email" placeholder="you@company.com" required />
+      <button class="btn btn--primary">Request demo</button>
+    </form>
+  </dialog>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
